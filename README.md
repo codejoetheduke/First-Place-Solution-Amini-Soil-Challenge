@@ -48,7 +48,7 @@ The key goals were:
 ### ✅ Transform:
 
 * Features like `PID`, `wp`, and target columns were dropped from input features.
-* `log1p` transformation was used on targets (except B) to reduce skew.
+* `log1p` transformation was used on targets (except B) to reduce skew in the third notebook.
 * Categorical object columns were converted to `category` dtype.
 * Two versions of random forest used:
 
