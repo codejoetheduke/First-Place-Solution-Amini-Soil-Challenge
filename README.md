@@ -43,7 +43,7 @@ The key goals were:
 ### ✅ Extract:
 
 * Data provided directly from the competition page (`train.csv`, `test.csv`)
-* For random forest notebooks, a multiple output regressor was used at the end and therefore were not separated into individual dataframes.
+* For random forest notebooks, a multiple output regressor was used at the end, and therefore nutrients were not separated into individual dataframes.
 * For lightgbm notebooks, all nutrients were separated into individual dataframes per target (`N_df`, `P_df`, ...)
 
 ### ✅ Transform:
