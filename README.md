@@ -178,6 +178,7 @@ The key goals were:
 * The extensive feature engineering in RF provided valuable diversity for final ensembling.
 * Even simple models (RF with default settings) contributed useful signals due to their structural variance.
 * Median ensembling across folds outperformed mean for most nutrients due to better outlier resistance.
+* Hundred heads are better than one. Ensembling is key in reducing the error.
 
 ---
 
