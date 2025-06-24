@@ -43,12 +43,13 @@ The key goals were:
 ### ✅ Extract:
 
 * Data provided directly from the competition page (`train.csv`, `test.csv`)
-* All nutrients were separated into individual dataframes per target (`N_df`, `P_df`, ...)
+* For random forest notebooks, a multiple output regressor was used at the end and therefore were not separated into individual dataframes.
+* For lightgbm notebooks, all nutrients were separated into individual dataframes per target (`N_df`, `P_df`, ...)
 
 ### ✅ Transform:
 
 * Features like `PID`, `wp`, and target columns were dropped from input features.
-* `log1p` transformation was used on targets (except B) to reduce skew in the third notebook.
+* `log1p` transformation was used on targets (except B) to reduce skew in the third notebook (first lightgbm notebook).
 * Categorical object columns were converted to `category` dtype.
 * Two versions of random forest used:
 
@@ -81,8 +82,10 @@ The key goals were:
 
 ### Model Training:
 
-* Per-nutrient models were trained with 10-fold cross-validation.
-* Bayesian Optimization was used to stack multiple LGBM variants using optimal weight discovery per fold.
+* Per-nutrient models were trained with 10-fold cross-validation for both lightgbm notebooks.
+* The first lightgbm notebook did not utilize the bayesian optimization technique, it was only a 10 fold cross validation with all targets (except B) being scaled (np.log1p).
+* Bayesian Optimization was used to stack multiple LGBM variants using optimal weight discovery per fold in the second lightgbm notebook.
+* For random forest models, a multiple output regressor was used. This was trained on a simple train test split with a test size of 0.2.
 * RMSE was used as the primary evaluation metric.
 
 ### Validation:
@@ -189,13 +192,13 @@ The key goals were:
 * **Libraries**:
 
   ```txt
-  pandas==2.2.2
-  numpy==1.25.2
-  matplotlib==3.7.2
-  seaborn==0.12.2
-  lightgbm==4.1.0
-  scikit-learn==1.3.2
-  bayesian-optimization==1.4.3
+  pandas
+  numpy
+  matplotlib
+  seaborn
+  lightgbm
+  scikit-learn
+  bayesian-optimization
   ```
 
 ---
