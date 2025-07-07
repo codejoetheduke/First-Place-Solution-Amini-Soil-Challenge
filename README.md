@@ -1,5 +1,8 @@
 # 🏆 **Amini Soil Nutrient Prediction Challenge – Winning Solution Documentation**
 
+![1_bGeWjS4ucgG0B9gkMMi_FA](https://github.com/user-attachments/assets/b49044e1-dd9a-4100-87f2-c50e7aa866b0)
+
+
 ## 📌 Overview and Objectives
 
 This solution was developed for a Zindi competition aimed at predicting soil nutrient levels (11 targets: N, P, K, Ca, Mg, S, Fe, Mn, Zn, Cu, B) from environmental and spatial features. The dataset included rich soil properties per location, and the objective was to minimize the RMSE between the predicted and actual nutrient values.
