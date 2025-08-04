@@ -1,7 +1,8 @@
 # 🏆 **Amini Soil Nutrient Prediction Challenge – Winning Solution Documentation**
 
-![1_bGeWjS4ucgG0B9gkMMi_FA](https://github.com/user-attachments/assets/b49044e1-dd9a-4100-87f2-c50e7aa866b0)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b49044e1-dd9a-4100-87f2-c50e7aa866b0" alt="Banner" width="100%">
+</p>
 
 ## 📌 Overview and Objectives
 
