@@ -160,6 +160,7 @@ Here are the **individual** best nutrient scores:
 
 <img width="1139" height="59" alt="f645b1e1-f64e-4ae4-9add-411c4cbd449b" src="https://github.com/user-attachments/assets/4a67dfe1-c28e-4fd9-9696-dd8fabb07c0e" />
 
+
 **Leaderboard scores:**
 
 * Public: **976.0499871**
