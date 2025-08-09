@@ -154,8 +154,11 @@ The key goals were:
 | Cu     | 1.86514              |
 | B      | 0.21136              |
 
-From Zindi's test,
-Here are the individual best nutrient scores.
+From Zindi's test set,
+
+Here are the **individual** best nutrient scores:
+
+<img width="1139" height="59" alt="f645b1e1-f64e-4ae4-9add-411c4cbd449b" src="https://github.com/user-attachments/assets/4a67dfe1-c28e-4fd9-9696-dd8fabb07c0e" />
 
 **Leaderboard scores:**
 
